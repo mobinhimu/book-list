@@ -1,0 +1,26 @@
+/* Adding Message */
+.adding {
+  background-color: #198754;
+  color: #ffffff;
+  padding: 2px 8px;
+  margin: 5px;
+}
+.remove {
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 2px 8px;
+  margin: 5px;
+}
+
+.warning {
+  background-color: #ffc107;
+  color: #ffffff;
+  padding: 2px 8px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+}
+.copyright {
+  text-align: center;
+}

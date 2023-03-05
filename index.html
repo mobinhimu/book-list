@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book list</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Add Book</h3>
+
+      <p class="adding-remove-warning"></p>
+      <form action="">
+        <div class="title">
+          <label for="title">Title</label>
+          <input
+            class="u-full-width"
+            type="text"
+            name="title"
+            id="title"
+            autofocus
+            required
+          />
+        </div>
+
+        <div class="author">
+          <label for="author">Author</label>
+          <input
+            class="u-full-width"
+            type="text"
+            name="author"
+            id="author"
+            required
+          />
+        </div>
+
+        <div class="isbn">
+          <label for="isbn">ISBN#</label>
+          <input
+            class="u-full-width"
+            type="number"
+            name="isbn"
+            id="isbn"
+            required
+          />
+        </div>
+        <div class="btn">
+          <input type="submit" class="u-full-width" value="Submit" required />
+        </div>
+      </form>
+      <div style="overflow-x: auto">
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>isbn</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody class="book-list">
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="copyright">
+        Developed By ❤️
+        <a href="https://www.facebook.com/sdmmobin" target="_blank"
+          >Mobin Himu</a
+        >
+      </p>
+    </div>
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
